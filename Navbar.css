@@ -70,6 +70,7 @@ nav .menu{
 
 @media only screen and (max-width: 1000px) {
 	nav .menu{
+		/* height: 100%; */
 		display: block;
 	}
 
@@ -95,8 +96,10 @@ nav .menu{
 		
 	}
 	nav ul li .resume{
+
 		display: block;
 		margin-top: 350px;
+		
 	}
 	nav ul li a{
 		font-family: 'Poppins';

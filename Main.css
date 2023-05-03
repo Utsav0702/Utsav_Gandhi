@@ -94,3 +94,27 @@ footer{
     text-decoration: none;
     border-radius: 20px;
 }
+
+@media only screen and (max-width: 1000px){
+    .social-links{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        justify-content: flex-end;
+        left: 8px;
+        position: fixed;
+        bottom: 0px;
+        width: fit-content;
+        z-index: 1;
+    
+    }
+    #backtotop{
+
+        display: block;
+        position:fixed;
+        bottom: 24px;
+        right: 8px;
+    }
+
+}
