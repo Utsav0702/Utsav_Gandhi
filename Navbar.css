@@ -56,7 +56,6 @@ nav ul li a::after{
 nav ul li a:hover::after{
 	
 	width: 100%;
-	
 	background-color:#64FFDA;
 }
 nav ul li a:hover,a:active {
@@ -72,6 +71,7 @@ nav .menu{
 	nav .menu{
 		/* height: 100%; */
 		display: block;
+
 	}
 
 
@@ -97,8 +97,9 @@ nav .menu{
 	}
 	nav ul li .resume{
 
-		display: block;
-		margin-top: 350px;
+		display: flex;
+		margin-bottom: 72px;
+		padding-left: 74px;
 		
 	}
 	nav ul li a{

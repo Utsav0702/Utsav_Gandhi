@@ -24,10 +24,12 @@
     
 }
 .contact_icon{
-    padding-right: 64px;
+    padding-right: 0px;
     
 }
 .contact_description{
+
+    padding-left: 64px;
     align-self: center;
     display: inline;
     text-decoration: none;
@@ -35,6 +37,7 @@
     font-size: 20px;
     
 }
+
 
 .right form{
     width: 100%;
@@ -64,9 +67,16 @@ form .btn:hover{
         flex-basis: 100%;
         
     }
+    .contact_description{
+        font-size: 16px;
+        padding-left:6px;
+    }
+    
    
 
 }
+
+   
 #message{
     color:#64FFDA;
     display: block;
