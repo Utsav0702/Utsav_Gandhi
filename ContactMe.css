@@ -85,6 +85,7 @@ form .btn:hover{
     display: block;
     margin-top: -40px;
     padding-left: 140px;
+    
 }
 
 #download-buttons{
@@ -94,26 +95,25 @@ form .btn:hover{
     
 }
 #cv-download, #resume-download{
-    width: 180px;
+    width: 160px;
     
 }
 .cv-download{
-    margin-left: 24px;
+    margin-left: 18px;
 }
 
 
 .resume-download{
-    width: 157px;
-    padding-right: 24px;
+    width: 140px;
     font-size: 18px;
     display: inline;
     text-align: center;
     background-color:#020C1B;
+
     margin-top: 8px;
     padding-top:12px;
     padding-bottom:12px;
-    padding-left: 18px;
-    padding-right: 18px;
+
     border: 1.8px solid #64FFDA;
     border-radius: 20px;
 
@@ -121,7 +121,7 @@ form .btn:hover{
     /* background: #020c1b; */
 }
 .button-img{
-    padding-right: 16px;
+    padding-right: 8px;
 }
 
 
@@ -129,4 +129,13 @@ form .btn:hover{
     text-decoration: none;
     color:#64FFDA;
 }
+@media only screen and (max-width: 400px){
+    #message{
+        color:#64FFDA;
+        display: block;
+        margin-top: -40px;
+        padding-left: 140px;
+        font-size: 12px;        
+    }
+  }
 
