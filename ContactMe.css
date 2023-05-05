@@ -37,12 +37,15 @@
     font-size: 20px;
     
 }
-
+.inside-text placeholder{
+    color: #A8B2D1;
+}
 
 .right form{
     width: 100%;
-
 }
+
+
 form input, form textarea{
     width: 100%;
     border: 1px solid #A8B2D1;
@@ -86,7 +89,7 @@ form .btn:hover{
 
 #download-buttons{
     display: inline-flex;
-    /* display: inline-block; */
+    
     margin-top: 20px;
     
 }
@@ -100,6 +103,7 @@ form .btn:hover{
 
 
 .resume-download{
+    width: 157px;
     padding-right: 24px;
     font-size: 18px;
     display: inline;

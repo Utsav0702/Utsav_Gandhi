@@ -28,6 +28,11 @@
   border: 1.8px solid #64FFDA;
   border-radius: 20px;
 }
+@media only screen and (max-width: 800px){
+  .Home{
+    margin-top: 35%;
+  }
+}
 
 
 

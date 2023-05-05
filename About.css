@@ -18,3 +18,15 @@
     text-align: justify;
     line-height: 30px;
 }
+@media only screen and (max-width: 1000px){
+
+    .discription{
+        text-align:left;
+    }
+
+}
+@media only screen and (max-width: 800px){
+    .About-sec{
+      margin-top: 25%;
+    }
+  }
