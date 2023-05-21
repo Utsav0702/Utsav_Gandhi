@@ -71,9 +71,16 @@ nav .menu{
 
 
 @media only screen and (max-width: 1000px) {
+	nav{
+		
+		height: 100%;
+		overflow-y: hidden;
+		overflow: hidden;
+	}
 	nav .menu{
 		/* height: 100%; */
 		display: block;
+		
 
 	}
 	nav ul{
