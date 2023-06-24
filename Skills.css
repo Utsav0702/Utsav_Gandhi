@@ -1,7 +1,9 @@
 #Skills-section{
     margin-top: 20%;
     background-color:#020C1B;
-
+}
+.skill_div{
+    padding-top: 7%;
 }
 #Skills{
     margin-left: 10%;
@@ -56,4 +58,6 @@
     }
 
 } */
-
+.utsav{
+    background-color: #020C1B;
+}

@@ -23,22 +23,26 @@
 <body>
     <!-- nevbar -->
     <div id="header">
-        <div class="container">
+        <div class="navbarlock">
             <nav>
-                <a class="logo">Utsav Gandhi</a>
-                <ul id="side-menu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#About-section">About</a></li>
-                    <li><a href="#Skills-section">Skills</a></li>
-                    <li><a href="#footertext">Contact</a></li>
-                    <li><a href="Resume/Resume_Utsav Gandhi.pdf" class="resume">Resume</a></li>
-                    <img src="data/icons/close.svg"  alt="..." class="menu contact_icon" onclick="closemenu()">
-                </ul>
-                <img src="data/icons/menu.svg" alt="..." class="menu contact_icon" style="margin-right: 0%;" onclick="openmenu()">
+                <div class="_1_nav">
+                    <a class="logo">Utsav Gandhi</a>
+                </div>
+                <div class="_2_nav" id="_2_id_nav">
+                    <ul id="side-menu">
+                        <li class="active"><a href="#header">Home</a></li>
+                        <li class="active"><a href="#About-section">About</a></li>
+                        <li class="active"><a href="#Skills-section">Skills</a></li>
+                        <li class="active"><a href="#footertext">Contact</a></li>
+                        <li><a href="Resume/Resume_Utsav Gandhi.pdf" class="resume">Resume</a></li>
+                        <img src="data/icons/close.svg"  alt="..." class="menu contact_icon" onclick="closemenu()">
+                    </ul>
+                    <img src="data/icons/menu.svg" alt="..." class="menu contact_icon" style="margin-right: 0%;" onclick="openmenu()">
+                </div>
                 
-
             </nav>
-
+        </div>
+        <div class="container">
             <div id="Home-section" class="Home">
                 <p>Hi, My name is</p>
                 <h1>Utsav Gandhi</h1>
@@ -47,6 +51,7 @@
                 <button class="resume"><a href="Resume/Resume_Utsav Gandhi.pdf"
                         style="color: #64FFDA; background:#020C1B; text-decoration: none;">Resume</a></button>
             </div>
+
         </div>
     </div>
 
@@ -69,94 +74,97 @@
     </div>
 
     <div id="Skills-section">
-        <h5 class="title" style="color:#64FFDA">Skills</h5>
-        <div id="Skills">
-            <div class="container-inside">
-                <div class="row row-cols-1 row-cols-md-2">
-                    <div class="col">
-                        <div class="card Ut_card ">
-                            <div class="card_head">
-                                <img src="data/images/programmer.png" class="card-img-top image" alt="...">
-                                <h5 class="card-title title-of-card" style="align-self: center;">Programing Language
-                                </h5>
+        <div class="skill_div">
+            <h5 class="title" style="color:#64FFDA">Skills</h5>
+            <div id="Skills">
+                <div class="container-inside">
+                    <div class="row row-cols-1 row-cols-md-2 utsav">
+                        <div class="col">
+                            <div class="card Ut_card ">
+                                <div class="card_head">
+                                    <img src="data/images/programmer.png" class="card-img-top image" alt="...">
+                                    <h5 class="card-title title-of-card" style="align-self: center;">Programing Language
+                                    </h5>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                    <ul class="info">
+                                        <li>Python</li>
+                                        <li>Java</li>
+                                        <li>HTML</li>
+                                        <li>css</li>
+                                    </ul>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="card-body">
-                                <p class="card-text">
-                                <ul class="info">
-                                    <li>Python</li>
-                                    <li>Java</li>
-                                    <li>HTML</li>
-                                    <li>css</li>
-                                </ul>
-                                </p>
+                        </div>
+
+                        <div class="col">
+                            <div class="card Ut_card ">
+                                <div class="card_head">
+                                    <img src="data/images/monitor.png" class="card-img-top image" alt="...">
+                                    <h5 class="card-title title-of-card" style="margin-top: 0px;">Data analysis
+                                        and<br>Manipulation tools</h5>
+                                    <!-- <h5 class="card-title title" style="margin-top: 0px;"></h5> -->
+                                </div>
+
+                                <div class="card-body">
+                                    <p class="card-text">
+                                    <ul class="info">
+                                        <li>Pandas</li>
+                                        <li>NumPy</li>
+                                        <li>SQL</li>
+                                        <li>Excel</li>
+                                    </ul>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col">
-                        <div class="card Ut_card ">
-                            <div class="card_head">
-                                <img src="data/images/monitor.png" class="card-img-top image" alt="...">
-                                <h5 class="card-title title-of-card" style="margin-top: 0px;">Data analysis
-                                    and<br>Manipulation tools</h5>
-                                <!-- <h5 class="card-title title" style="margin-top: 0px;"></h5> -->
-                            </div>
+                    <div class="row row-cols-1 row-cols-md-2 utsav">
+                        <div class="col">
+                            <div class="card Ut_card ">
+                                <div class="card_head">
+                                    <img src="data/images/artificial-intelligence.png" class="card-img-top image" alt="...">
+                                    <h5 class="card-title title-of-card">Machine Learning<br>Algorithms</h5>
+                                </div>
 
-                            <div class="card-body">
-                                <p class="card-text">
-                                <ul class="info">
-                                    <li>Pandas</li>
-                                    <li>NumPy</li>
-                                    <li>SQL</li>
-                                    <li>Excel</li>
-                                </ul>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row row-cols-1 row-cols-md-2">
-                    <div class="col">
-                        <div class="card Ut_card ">
-                            <div class="card_head">
-                                <img src="data/images/artificial-intelligence.png" class="card-img-top image" alt="...">
-                                <h5 class="card-title title-of-card">Machine Learning<br>Algorithms</h5>
-                            </div>
-
-                            <div class="card-body">
-                                <p class="card-text">
-                                <ul class="info">
-                                    <li>Supervised learning </li>
-                                    <li>Unsupervised learning </li>
-                                    <li>Deep learning </li>
-                                    <li>Natural Language Processing(NLP)</li>
-                                </ul>
-                                </p>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                    <ul class="info">
+                                        <li>Supervised learning </li>
+                                        <li>Unsupervised learning </li>
+                                        <li>Deep learning </li>
+                                        <li>Natural Language Processing(NLP)</li>
+                                    </ul>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col ">
-                        <div class="card Ut_card ">
+                        <div class="col ">
+                            <div class="card Ut_card ">
 
-                            <div class="card_head">
-                                <img src="data/images/framework.png" class="card-img-top image" alt="...">
-                                <h5 class="card-title title-of-card" style="line-height: 52px;">Frameworks</h5>
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text info">
-                                <ul class="info">
-                                    <li>TensorFlow</li>
-                                    <li>PyTorch</li>
-                                </ul>
-                                </p>
+                                <div class="card_head">
+                                    <img src="data/images/framework.png" class="card-img-top image" alt="...">
+                                    <h5 class="card-title title-of-card" style="line-height: 52px;">Frameworks</h5>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text info">
+                                    <ul class="info">
+                                        <li>TensorFlow</li>
+                                        <li>PyTorch</li>
+                                    </ul>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        
     </div>
 
     <div id="Contact-section">
@@ -269,7 +277,7 @@
 </body>
 
 <footer id="footertext">
-    <p> &copy; All Right Recived</p>
+    <p> &copy; All Rights Reserved</p>
 </footer>
 
 <script>
