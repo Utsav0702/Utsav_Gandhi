@@ -204,4 +204,6 @@ button:active {
         /* background: #020c1b; */
     }
   }
-
+#footertext{
+    padding-top: 24px;
+}
