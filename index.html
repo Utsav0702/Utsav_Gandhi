@@ -29,14 +29,17 @@
                     <a class="logo">Utsav Gandhi</a>
                 </div>
                 <div class="_2_nav" id="_2_id_nav">
-                    <ul id="side-menu">
-                        <li class="active"><a href="#header">Home</a></li>
-                        <li class="active"><a href="#About-section">About</a></li>
-                        <li class="active"><a href="#Skills-section">Skills</a></li>
-                        <li class="active"><a href="#footertext">Contact</a></li>
-                        <li><a href="Resume/Resume_Utsav Gandhi.pdf" class="resume">Resume</a></li>
-                        <img src="data/icons/close.svg"  alt="..." class="menu contact_icon" onclick="closemenu()">
-                    </ul>
+                    <div class="side-menu">
+                        <ul id="side-menu">
+                            <li class="active"><a href="#header">Home</a></li>
+                            <li class="active"><a href="#About-section">About</a></li>
+                            <li class="active"><a href="#Skills-section">Skills</a></li>
+                            <li class="active"><a href="#footertext">Contact</a></li>
+                            <li><a href="Resume/Resume_Utsav Gandhi.pdf" class="resume">Resume</a></li>
+                            <img src="data/icons/close.svg"  alt="..." class="menu contact_icon" onclick="closemenu()">
+                        </ul>
+                    </div>
+                    
                     <img src="data/icons/menu.svg" alt="..." class="menu contact_icon" style="margin-right: 0%;" onclick="openmenu()">
                 </div>
                 
@@ -83,16 +86,23 @@
                             <div class="card Ut_card ">
                                 <div class="card_head">
                                     <img src="data/images/programmer.png" class="card-img-top image" alt="...">
-                                    <h5 class="card-title title-of-card" style="align-self: center;">Programing Language
+                                    <h5 class="card-title title-of-card" style="align-self: center;">Programing
                                     </h5>
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text">
                                     <ul class="info">
-                                        <li>Python</li>
-                                        <li>Java</li>
-                                        <li>HTML</li>
-                                        <li>css</li>
+                                        <div class="card-body-inside">
+                                            <li>Python</li>
+                                            <li>HTML</li>
+                                            <li>css</li>
+                                            <li>Java</li>
+                                        </div>
+                                        <div class="card-body-inside">
+                                            <li>React</li>
+                                            <li>xml</li>
+                                        </div>
+                                        
                                     </ul>
                                     </p>
                                 </div>
@@ -111,10 +121,19 @@
                                 <div class="card-body">
                                     <p class="card-text">
                                     <ul class="info">
-                                        <li>Pandas</li>
-                                        <li>NumPy</li>
-                                        <li>SQL</li>
-                                        <li>Excel</li>
+                                        <div class="card-body-inside">
+                                            <li>Pandas</li>
+                                            <li>NumPy</li> 
+                                            <li>Seaborn</li>
+                                            <li>Matplotlib</li> 
+                                        </div>
+                                        <div class="card-body-inside, card-body-inside-right">
+                                            <li>Tableau</li>
+                                            <li>Excel</li>
+                                            <!-- <li></li> -->
+                                            <!-- <li></li> -->
+                                        </div>
+                                          
                                     </ul>
                                     </p>
                                 </div>
@@ -133,10 +152,11 @@
                                 <div class="card-body">
                                     <p class="card-text">
                                     <ul class="info">
-                                        <li>Supervised learning </li>
-                                        <li>Unsupervised learning </li>
-                                        <li>Deep learning </li>
-                                        <li>Natural Language Processing(NLP)</li>
+                                        <li>Supervised-Unsupervised learning </li>
+                                        <li>Linear-Logistic regression</li>
+                                        <li>Decision trees</li>
+                                        <li>Random forest</li>
+                                        <!-- <li>Deep learning</li> -->
                                     </ul>
                                     </p>
                                 </div>
@@ -154,6 +174,7 @@
                                     <p class="card-text info">
                                     <ul class="info">
                                         <li>TensorFlow</li>
+                                        <li>scikit-learn</li>
                                         <li>PyTorch</li>
                                     </ul>
                                     </p>
