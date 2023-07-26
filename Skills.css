@@ -61,3 +61,6 @@
 .utsav{
     background-color: #020C1B;
 }
+.card-body-inside{
+    float: left; padding-right: 60px;
+}

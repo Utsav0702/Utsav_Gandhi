@@ -118,17 +118,19 @@ nav .menu{
 	}
 	nav ul{
 		/* glass morphisam */
-		background: rgba( 2, 12, 27, 0.4 );
-		box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-		backdrop-filter: blur( 17px );
-		-webkit-backdrop-filter: blur( 17px );
-		border-radius: 20px;
-		border: 1px solid rgba( 255, 255, 255, 0.18 );
-
+		backdrop-filter: blur(14px) saturate(151%);
+		-webkit-backdrop-filter: blur(14px) saturate(151%);
+		background-color: rgba(2, 12, 27, 0.95);
+		border-radius: 12px;
+		border: 1px solid rgba(255, 255, 255, 0.125);
+		
 		position: fixed;
-		top: 0;
+		top: 0px;
+		/* bottom: 0px; */
 		right: -285px;
 		width: 280px;
+		/* height: 100%; */
+		
 		
 		padding-top: 50px;
 		z-index: 2;
@@ -170,8 +172,4 @@ nav .menu{
 		left: 24px;
 		cursor: pointer;
 	}
-
-
-
-
 }
